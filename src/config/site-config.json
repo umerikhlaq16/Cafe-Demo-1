@@ -1,0 +1,191 @@
+{
+  "$schema": "./site-config.schema.json",
+  "site": {
+    "name": "Sipora",
+    "homeUrl": "#home"
+  },
+  "navbar": {
+    "ariaLabel": "Main navigation",
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Menu", "href": "#menu" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Book a table",
+      "href": "#reservation"
+    }
+  },
+  "hero": {
+    "eyebrow": "Real fruit. Real refreshment.",
+    "title": "Taste the goodness.\nFeel the freshness.",
+    "description": "Freshly blended goodness crafted for your everyday energy.",
+    "backgroundImage": "/images/demo1-drinks-hero.png",
+    "cta": {
+      "label": "Order now",
+      "href": "#menu"
+    }
+  },
+  "whySection": {
+    "eyebrow": "Made differently",
+    "title": "Why Sipora?",
+    "intro": "Honest ingredients, considered flavor and refreshment made to move at your pace.",
+    "items": [
+      {
+        "title": "Real fruit experience",
+        "description": "Crafted to deliver authentic, vibrant taste in every sip."
+      },
+      {
+        "title": "Balanced & refreshing",
+        "description": "Not too sweet, not too heavy—just the right balance."
+      },
+      {
+        "title": "Functional benefits",
+        "description": "Hydration, vitamins, and daily refreshment in one bottle."
+      },
+      {
+        "title": "Modern lifestyle fit",
+        "description": "Made for your fast, active, on-the-go lifestyle."
+      }
+    ]
+  },
+  "productsSection": {
+    "eyebrow": "Fresh picks",
+    "title": "Find your flavor",
+    "footerText": "Swipe, pick your favorite and start sipping",
+    "items": [
+      {
+        "name": "Sunny Citrus",
+        "price": "$2.99",
+        "description": "A bright citrus blend with a crisp, sunny finish.",
+        "image": "/images/product-citrus.png",
+        "imageAlt": "Citrus juice bottle surrounded by oranges and lemons"
+      },
+      {
+        "name": "Sweet Berry",
+        "price": "$3.29",
+        "description": "Sweet, juicy strawberries blended into a vibrant sip.",
+        "image": "/images/product-strawberry.png",
+        "imageAlt": "Strawberry juice bottle surrounded by fresh strawberries"
+      },
+      {
+        "name": "Tropical Gold",
+        "price": "$3.49",
+        "description": "Smooth ripe mango with naturally tropical sweetness.",
+        "image": "/images/product-mango.png",
+        "imageAlt": "Mango juice bottle surrounded by ripe mangoes"
+      },
+      {
+        "name": "Green Glow",
+        "price": "$3.59",
+        "description": "A clean green blend of apple, kiwi and leafy goodness.",
+        "image": "/images/product-green.png",
+        "imageAlt": "Green smoothie bottle surrounded by green fruit and leaves"
+      },
+      {
+        "name": "Melon Splash",
+        "price": "$3.19",
+        "description": "Cool, juicy watermelon made for bright summer days.",
+        "image": "/images/product-watermelon.png",
+        "imageAlt": "Watermelon juice bottle surrounded by fresh watermelon"
+      },
+      {
+        "name": "Blue Burst",
+        "price": "$3.69",
+        "description": "Deep blueberry flavor with a bold and fruity finish.",
+        "image": "/images/product-blueberry.png",
+        "imageAlt": "Blueberry juice bottle surrounded by ripe blueberries"
+      },
+      {
+        "name": "Peach Bloom",
+        "price": "$3.39",
+        "description": "Soft, fragrant peach with smooth orchard sweetness.",
+        "image": "/images/product-peach.png",
+        "imageAlt": "Peach juice bottle surrounded by ripe peaches"
+      },
+      {
+        "name": "Pineapple Pop",
+        "price": "$3.79",
+        "description": "A tangy tropical pineapple blend with a golden glow.",
+        "image": "/images/product-pineapple.png",
+        "imageAlt": "Pineapple juice bottle surrounded by fresh pineapples"
+      }
+    ]
+  },
+  "storySection": {
+    "badge": "Made for good moments",
+    "eyebrow": "More than a drink",
+    "title": "Fresh flavor.\nBetter together.",
+    "description": "The best sips are shared. We make bright, honest refreshment for sunny afternoons, long conversations and everything in between.",
+    "image": "/images/demo1-lifestyle-story.png",
+    "imageAlt": "Friends sharing colorful fresh juice at a sunny outdoor cafe",
+    "cta": {
+      "label": "Our story",
+      "href": "#about"
+    }
+  },
+  "parfaitsSection": {
+    "eyebrow": "Layered goodness",
+    "title": "Pick your parfait",
+    "footerText": "",
+    "items": [
+      {
+        "name": "Berry Crunch",
+        "price": "$4.49",
+        "description": "Greek yogurt, mixed berry compote and golden crunchy granola.",
+        "image": "/images/parfait-berry.png",
+        "imageAlt": "Layered berry yogurt parfait surrounded by fresh berries"
+      },
+      {
+        "name": "Mango Sunrise",
+        "price": "$4.59",
+        "description": "Creamy yogurt, ripe mango puree and coconut granola.",
+        "image": "/images/parfait-mango.png",
+        "imageAlt": "Layered mango yogurt parfait surrounded by fresh mangoes"
+      },
+      {
+        "name": "Cocoa Banana",
+        "price": "$4.79",
+        "description": "Chocolate chia, banana, creamy yogurt and cacao crunch.",
+        "image": "/images/parfait-cocoa-banana.png",
+        "imageAlt": "Chocolate banana yogurt parfait with cacao and bananas"
+      },
+      {
+        "name": "Pistachio Honey",
+        "price": "$4.89",
+        "description": "Thick yogurt, pistachio cream, honey and fig granola.",
+        "image": "/images/parfait-pistachio.png",
+        "imageAlt": "Pistachio honey yogurt parfait surrounded by figs and pistachios"
+      }
+    ]
+  },
+  "appDownloadSection": {
+    "eyebrow": "Sipora in your pocket",
+    "title": "Your favorites.\nOne tap away.",
+    "description": "Order ahead, discover seasonal drops and collect rewards every time you choose something fresh.",
+    "image": "/images/sipora-app-mockup-wide.png",
+    "imageAlt": "Two smartphones showing the Sipora drink ordering app",
+    "features": ["Order ahead", "Earn rewards", "Exclusive flavors"],
+    "stores": [
+      { "name": "App Store", "href": "#", "icon": "●" },
+      { "name": "Google Play", "href": "#", "icon": "▶" }
+    ]
+  },
+  "footer": {
+    "tagline": "Bright fruit, honest flavor and better moments—made fresh for wherever your day takes you.",
+    "email": "hello@sipora.com",
+    "copyright": "All rights reserved.",
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Drinks", "href": "#menu" },
+      { "label": "Parfaits", "href": "#parfaits" },
+      { "label": "Our story", "href": "#about" }
+    ],
+    "socials": [
+      { "label": "Instagram", "href": "#" },
+      { "label": "TikTok", "href": "#" },
+      { "label": "Pinterest", "href": "#" }
+    ]
+  }
+}
